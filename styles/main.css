@@ -1,11 +1,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #35052e;
 }
 
 body {
-	background: url('../img/background.png');
+	background: url('../img/background.jpg');
   background-attachment: fixed;
   min-width: 1000px;
   background-position: center 0;
@@ -39,8 +38,8 @@ a {
 .menu .item {
 	float: left;
 	padding: 10px;
-	border: 2px solid #b1fe32;
-	color: #b1fe32;
+	border: 2px solid #d6569c;
+	color: #d6569c;
 	margin-right: 10px;
   font-size: 20px;
   text-transform: uppercase;
@@ -50,8 +49,8 @@ a {
 }
 
 .menu .item:hover {
-  color: #16efb2;
-  border-color: #16efb2;
+  color: #d6569c;
+  border-color: #d6569c;
 }
 
 .menu .item:last-child {
@@ -70,7 +69,7 @@ a {
 /*text*/
 .text {
 	text-align: center;
-	color: #ddd;
+	color: #222;
 	font-size: 2.1rem;
 	line-height: 1.4;
 }
@@ -80,16 +79,16 @@ a {
 }
 
 .text a {
-  color: #b1fe32;
+  color: #d6569c;
 }
 
 .text a:hover {
-  color: #16efb2;
+  color: #d6569c;
   text-decoration: underline;
 }
 
 .text_bottom {
-  color: #16efb2;
+  color: #d6569c;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -97,7 +96,7 @@ a {
 /*list*/
 .list_header {
   text-align: center;
-  color: #16efb2;
+  color: #d6569c;
   font-size: 2.5rem;
   margin-bottom: 30px;
 }
