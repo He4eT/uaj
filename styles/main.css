@@ -33,7 +33,6 @@ a {
 .menu {
   font-family: sans-serif;
 	height: 90px;
-	margin-bottom: 50px;
 }
 
 .menu .item {
@@ -47,11 +46,12 @@ a {
   text-decoration: none;
   display: block;
   cursor: pointer;
+  background-color: #fff;
 }
 
 .menu .item:hover {
-  color: #d6569c;
-  border-color: #d6569c;
+  color: #7474b4;
+  border-color: #7474b4;
 }
 
 .menu .item:last-child {
@@ -73,10 +73,15 @@ a {
 	color: #222;
 	font-size: 2.1rem;
 	line-height: 1.4;
+  padding: 40px 40px 60px;
+  background-color: #fff;
+  width: 650px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 13px 4px #f556a0;
 }
 
 .text_top {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 .text a {
@@ -84,7 +89,7 @@ a {
 }
 
 .text a:hover {
-  color: #d6569c;
+  color: #7474b4;
   text-decoration: underline;
 }
 
@@ -94,12 +99,19 @@ a {
   margin-bottom: 50px;
 }
 
+.text_bottom a {
+  color: #7474b4;
+}
+
 /*list*/
 .list_header {
   text-align: center;
-  color: #d6569c;
-  font-size: 2.5rem;
-  margin-bottom: 30px;
+  color: #fff;
+  font-size: 4rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-shadow: 0px 5px 10px #f556a0;
 }
 
 .list {
